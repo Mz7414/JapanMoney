@@ -21,4 +21,4 @@ jobs:
         pip install lxml
         pip install requests
     - name: runpython
-      run: python stock_Notify_price.py
+      run: python JanpaneseMoney.py
