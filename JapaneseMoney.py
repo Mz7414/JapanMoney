@@ -22,6 +22,6 @@ url = 'https://www.bestxrate.com/bankrate/twsinopac.html'
 resp = requests.get(url)
 df = pd.read_html(resp.text)
 x = float(df[0]['即期買入'][1])
-if x >= 0.22 :
+if x >= 0.24 :
     line()
 
