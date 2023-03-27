@@ -21,4 +21,4 @@ jobs:
         pip install lxml
         pip install requests
     - name: runpython
-      run: python JanpaneseMoney.py
+      run: python JapaneseMoney.py
